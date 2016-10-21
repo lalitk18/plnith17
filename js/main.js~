@@ -1,5 +1,5 @@
 $(".button-collapse").sideNav();
-$('.modal-trigger').leanModal();
+//$('.modal-trigger').leanModal();
 $('.homex').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
@@ -73,7 +73,7 @@ $('.contactx').click(function(){
 
 $('.registereebx').click(function(){
     $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top -300
+        scrollTop: $( $(this).attr('href') ).offset().top -400
     }, 500);
     return false;
 });
