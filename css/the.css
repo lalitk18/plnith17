@@ -16,6 +16,16 @@ body{
 
 
 }
+h2{
+    font-weight: 300; 
+    color:white;
+    font-family: MYRIADPRO-COND;
+    padding-bottom:30px;
+    padding-top:20px;
+
+
+
+}
 
 .sec-card{
 	width: 180px;
@@ -27,7 +37,16 @@ body{
 	left:20px;
 }
 
+h5{
+    
+    font-size: 20px;
+}
+h6{
+    
+    font-size: 15px;
+}
 h6,h5{
+    font-family: MYRIADPRO-CONDIT;
 	color: white;
 }
 
@@ -36,5 +55,5 @@ h6,h5{
 }
 
 .the-pos{
-	line-height: 22px;
+	line-height: 20px;
 }

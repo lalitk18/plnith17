@@ -16,8 +16,9 @@
 
 
 .nav-wrapper{
-	font-family: roboto-light;
-	background-color: #0c46a0;
+	font-family: MYRIADPRO-CONDIT;
+	background-color: cornflowerblue ;
+    font-size: 50px;
 }
 
 #nav-mobile>li{
