@@ -78,10 +78,11 @@ $('.registereebx').click(function(){
     return false;
 });
 
-var l_marginx = (window.innerWidth -903)/2;
+
+var l_marginx = (window.innerWidth -1203)/2;
 document.getElementById("nav-mobile").style.marginLeft = l_marginx + "px";
 
 $(window).resize(function(){
-    var l_margin = (window.innerWidth -903)/2;
+    var l_margin = (window.innerWidth -1203)/2;
     document.getElementById("nav-mobile").style.marginLeft = l_margin + "px";
 });
